@@ -33,7 +33,7 @@ export const Video = () => {
         <div className='bg-[#037fbd] text-center text-[#fff] py-[40px] '>
             <h1 className='text-[27px] font-bold'>SPONSOR THE HEALING STREAM LIVE SERVICES  TODAY !</h1>
             <p>JOIN US TO SATURATE THE WORLD WITH DIVINE HEALTH REALITIES.</p>
-            <div className=' m-auto w-[150px] flex items-center gap-2 px-4 py-2 bg-[#dc3545] cursor-pointer my-3.5'>
+            <div className=' m-auto w-[154px] flex items-center gap-2 px-4 py-2 bg-[#dc3545] cursor-pointer my-3.5'>
                 <p> Sponsor Now </p> 
                 <FaArrowUpRightFromSquare />
             </div>
