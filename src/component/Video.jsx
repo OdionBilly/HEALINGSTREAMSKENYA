@@ -1,13 +1,15 @@
 import React from 'react'
 import { FaArrowDown } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import herovideo  from '/public/hero.mp4';
+
 
 export const Video = () => {
   return (
     <div className='pt-[0.5px]'>
         <div className='relative w-full h-[88vh] overflow-hidden'>
             <video autoPlay loop muted className='absolute top-0 left-0 z-[-1] transform w-full h-[88vh] object-cover'>
-                <source src='/public/hero.mp4'type='video/mp4' />
+                <source src={herovideo} type='video/mp4' />
             </video>
             <div className='mt-[350px] xl:w-[499px] bg-[#fff]/opacity-70  z-1 max-sm:ml-7 max-lg:ml-10  xl:ml-[50px] rounded-lg shadow-lg'>
                 <h1 className='max-sm:text-[30px] max-lg:text-[30px] xl:text-[35px] text-[#037fbd] text-left font-bold '>HEALING STREAMS  <br /></h1>
